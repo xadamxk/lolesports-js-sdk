@@ -14,6 +14,7 @@
  */
 import {ApiClient} from '../ApiClient';
 import {InlineResponse2001DataSchedulePages} from './InlineResponse2001DataSchedulePages';
+import {AllOfinlineResponse2001DataScheduleEventsItems} from './AllOfinlineResponse2001DataScheduleEventsItems';
 
 /**
  * The InlineResponse2001DataSchedule model module.

@@ -19,6 +19,7 @@ import {InlineResponse20014TeamRosterStats} from './InlineResponse20014TeamRoste
 import {InlineResponse20014TeamStatsHistories} from './InlineResponse20014TeamStatsHistories';
 import {InlineResponse20014TeamStatsSummaries} from './InlineResponse20014TeamStatsSummaries';
 import {ScheduleItem} from './ScheduleItem';
+import {AllOfinlineResponse20014PlayersItems} from './AllOfinlineResponse20014PlayersItems';
 
 /**
  * The InlineResponse20014 model module.

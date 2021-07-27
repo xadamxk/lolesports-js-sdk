@@ -18,6 +18,7 @@ import {GameMode} from './GameMode';
 import {Roles} from './Roles';
 import {Scores} from './Scores';
 import {Standings} from './Standings';
+import {AllOfhighlanderGameInputItems} from './AllOfhighlanderGameInputItems';
 
 /**
  * The HighlanderGame model module.

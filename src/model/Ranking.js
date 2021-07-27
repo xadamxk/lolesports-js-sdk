@@ -13,6 +13,7 @@
  *
  */
 import {ApiClient} from '../ApiClient';
+import {AllOfrankingTeamsItems} from './AllOfrankingTeamsItems';
 
 /**
  * The Ranking model module.

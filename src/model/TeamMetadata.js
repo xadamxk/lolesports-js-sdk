@@ -13,6 +13,7 @@
  *
  */
 import {ApiClient} from '../ApiClient';
+import {OneOfteamMetadataParticipantMetadataItems} from './OneOfteamMetadataParticipantMetadataItems';
 
 /**
  * The TeamMetadata model module.

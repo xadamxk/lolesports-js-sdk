@@ -13,6 +13,7 @@
  *
  */
 import {ApiClient} from '../ApiClient';
+import {AllOfinlineResponse2002DataScheduleEventsItems} from './AllOfinlineResponse2002DataScheduleEventsItems';
 
 /**
  * The InlineResponse2002DataSchedule model module.

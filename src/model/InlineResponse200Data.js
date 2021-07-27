@@ -13,6 +13,7 @@
  *
  */
 import {ApiClient} from '../ApiClient';
+import {AllOfinlineResponse200DataLeaguesItems} from './AllOfinlineResponse200DataLeaguesItems';
 
 /**
  * The InlineResponse200Data model module.

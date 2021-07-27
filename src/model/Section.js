@@ -14,6 +14,7 @@
  */
 import {ApiClient} from '../ApiClient';
 import {Ranking} from './Ranking';
+import {AllOfsectionMatchesItems} from './AllOfsectionMatchesItems';
 
 /**
  * The Section model module.

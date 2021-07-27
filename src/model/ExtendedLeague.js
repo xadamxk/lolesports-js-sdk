@@ -26,11 +26,12 @@ export class ExtendedLeague extends SimpleLeague {
    * @alias module:model/ExtendedLeague
    * @class
    * @extends module:model/SimpleLeague
+   * @param slug {} URL friendly version of the league's name
    * @param id {} The league's ID
    * @param image {} URL to an image of the League's logo
    * @param priority {} Unknown
    */
-  constructor(id, image, priority) {
+  constructor(slug, id, image, priority) {
     super(name, slug, id, image);
     this.priority = priority;
   }

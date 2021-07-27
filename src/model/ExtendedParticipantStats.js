@@ -28,6 +28,12 @@ export class ExtendedParticipantStats extends ParticipantStats {
    * @alias module:model/ExtendedParticipantStats
    * @class
    * @extends module:model/ParticipantStats
+   * @param participantId {} 
+   * @param level {} 
+   * @param kills {} 
+   * @param deaths {} 
+   * @param assists {} 
+   * @param creepScore {} 
    * @param totalGold {} 
    * @param currentHealth {} 
    * @param maxHealth {} 
@@ -48,7 +54,7 @@ export class ExtendedParticipantStats extends ParticipantStats {
    * @param perkMetadata {} 
    * @param abilities {} 
    */
-  constructor(totalGold, currentHealth, maxHealth, totalGoldEarned, killParticipation, championDamageShare, wardsPlaced, wardsDestroyed, attackDamage, abilityPower, criticalChance, attackSpeed, lifeSteal, armor, magicResistance, tenacity, items, perkMetadata, abilities) {
+  constructor(participantId, level, kills, deaths, assists, creepScore, totalGold, currentHealth, maxHealth, totalGoldEarned, killParticipation, championDamageShare, wardsPlaced, wardsDestroyed, attackDamage, abilityPower, criticalChance, attackSpeed, lifeSteal, armor, magicResistance, tenacity, items, perkMetadata, abilities) {
     super(participantId, level, kills, deaths, assists, creepScore, totalGold, currentHealth, maxHealth);
     this.totalGoldEarned = totalGoldEarned;
     this.killParticipation = killParticipation;
