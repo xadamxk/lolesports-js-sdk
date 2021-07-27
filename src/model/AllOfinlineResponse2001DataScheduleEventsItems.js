@@ -29,12 +29,14 @@ export class AllOfinlineResponse2001DataScheduleEventsItems extends ExtendedEven
    * @alias module:model/AllOfinlineResponse2001DataScheduleEventsItems
    * @class
    * @extends module:model/ExtendedEvent
+   * @param startTime {} The time the match started
+   * @param blockName {} 
    * @param state {} 
    * @param type {} 
    * @param league {} 
    * @param match {} 
    */
-  constructor(state, type, league, match) {
+  constructor(startTime, blockName, state, type, league, match) {
     super(startTime, blockName, match, state, type);
     this.league = league;
     this.match = match;

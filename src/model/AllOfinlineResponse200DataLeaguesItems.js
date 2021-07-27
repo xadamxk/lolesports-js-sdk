@@ -26,11 +26,14 @@ export class AllOfinlineResponse200DataLeaguesItems extends ExtendedLeague {
    * @alias module:model/AllOfinlineResponse200DataLeaguesItems
    * @class
    * @extends module:model/ExtendedLeague
+   * @param slug {} URL friendly version of the league's name
+   * @param id {} The league's ID
+   * @param image {} URL to an image of the League's logo
    * @param priority {} Unknown
    * @param region {} Indicates which type of tournament the league is. Whether international or a regional tournament. The region name is given. 
    */
-  constructor(priority, region) {
-    super(id, image, priority);
+  constructor(slug, id, image, priority, region) {
+    super(slug, id, image, priority);
     this.region = region;
   }
 

@@ -18,6 +18,7 @@ import {HighlanderTournament} from './HighlanderTournament';
 import {InlineResponse20015PlayerStatsHistories} from './InlineResponse20015PlayerStatsHistories';
 import {InlineResponse20015PlayerStatsSummaries} from './InlineResponse20015PlayerStatsSummaries';
 import {MatchScheduleItem} from './MatchScheduleItem';
+import {AllOfinlineResponse20015PlayersItems} from './AllOfinlineResponse20015PlayersItems';
 
 /**
  * The InlineResponse20015 model module.

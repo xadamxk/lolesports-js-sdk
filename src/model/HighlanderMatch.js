@@ -20,6 +20,7 @@ import {Roles} from './Roles';
 import {Scores} from './Scores';
 import {Scoring} from './Scoring';
 import {Standings} from './Standings';
+import {AllOfhighlanderMatchInputItems} from './AllOfhighlanderMatchInputItems';
 
 /**
  * The HighlanderMatch model module.
