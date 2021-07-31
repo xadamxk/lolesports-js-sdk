@@ -1,6 +1,6 @@
 {
   "name": "lolesports-js-sdk",
-  "version": "1.0.0-alpha-1",
+  "version": "1.0.0",
   "description": "Javascript sdk for the unofficial lolesports api (July 2021) generated using codegen.",
   "license": "MIT",
   "main": "src/index.js",
