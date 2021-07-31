@@ -5,6 +5,14 @@
   "license": "MIT",
   "main": "src/index.js",
   "author": "xadamxk (https://github.com/xadamxk)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xadamxk/lolesports-js-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/xadamxk/lolesports-js-sdk/issues"
+  },
+  "homepage": "https://github.com/xadamxk/lolesports-js-sdk#readme",
   "contributors": [
     "xadamxk (https://github.com/xadamxk)",
     "vickz84259 (https://github.com/vickz84259/lolesports-api-docs)"
