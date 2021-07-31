@@ -1,4 +1,4 @@
-# lolesports_api
+# lolesports-js-sdk
 
 LolesportsApi - JavaScript client for lolesports_api
 Unofficial documentation to the lolesports Api
@@ -68,28 +68,23 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var LolesportsApi = require('lolesports_api');
+var LolesportsApi = require('lolesports-js-sdk');
+
 var defaultClient = LolesportsApi.ApiClient.instance;
+defaultClient.basePath = "https://esports-api.lolesports.com/persisted/gw";
+defaultClient.authentications['apiKeyAuth']['apiKey'] = "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z";
 
-// Configure API key authorization: apiKeyAuth
-var apiKeyAuth = defaultClient.authentications['apiKeyAuth'];
-apiKeyAuth.apiKey = "YOUR API KEY"
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//apiKeyAuth.apiKeyPrefix['x-api-key'] = "Token"
-
-var api = new LolesportsApi.EventsApi()
-var hl = new LolesportsApi.Locale(); // {Locale} 
-var opts = { 
-  'tournamentId': [3.4] // {[Number]} The id(s) of the tournament(s) you want details ofs 
-};
-var callback = function(error, data, response) {
+var callback = function (error, data, response) {
   if (error) {
     console.error(error);
   } else {
-    console.log('API called successfully. Returned data: ' + data);
+    console.log('API called successfully. Returned data: ' + JSON.stringify(data));
   }
 };
-api.getCompletedEvents(hl, opts, callback);
+
+var api = new LolesportsApi.LeaguesApi();
+api.getStandings(LolesportsApi.Locale.enUS, { tournamentId: ["105658534671026792"] }, callback);
+
 ```
 
 ## Documentation for API Endpoints
