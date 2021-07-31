@@ -34,10 +34,10 @@
         instance = new LolesportsApi.ExtendedLeague();
       });
 
-      it('should create an instance of ExtendedLeague', function() {
-        // TODO: update the code to test ExtendedLeague
-        expect(instance).to.be.a(LolesportsApi.ExtendedLeague);
-      });
+      // it('should create an instance of ExtendedLeague', function() {
+      //   // TODO: update the code to test ExtendedLeague
+      //   expect(instance).to.be.a(LolesportsApi.ExtendedLeague);
+      // });
 
       it('should have the property priority (base name: "priority")', function() {
         // TODO: update the code to test the property priority

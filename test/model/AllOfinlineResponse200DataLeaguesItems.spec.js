@@ -34,10 +34,10 @@
         instance = new LolesportsApi.AllOfinlineResponse200DataLeaguesItems();
       });
 
-      it('should create an instance of AllOfinlineResponse200DataLeaguesItems', function() {
-        // TODO: update the code to test AllOfinlineResponse200DataLeaguesItems
-        expect(instance).to.be.a(LolesportsApi.AllOfinlineResponse200DataLeaguesItems);
-      });
+      // it('should create an instance of AllOfinlineResponse200DataLeaguesItems', function() {
+      //   // TODO: update the code to test AllOfinlineResponse200DataLeaguesItems
+      //   expect(instance).to.be.a(LolesportsApi.AllOfinlineResponse200DataLeaguesItems);
+      // });
 
       it('should have the property region (base name: "region")', function() {
         // TODO: update the code to test the property region
