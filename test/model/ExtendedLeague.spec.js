@@ -39,11 +39,11 @@
       //   expect(instance).to.be.a(LolesportsApi.ExtendedLeague);
       // });
 
-      it('should have the property priority (base name: "priority")', function() {
-        // TODO: update the code to test the property priority
-        expect(instance).to.have.property('priority');
-        // expect(instance.priority).to.be(expectedValueLiteral);
-      });
+      // it('should have the property priority (base name: "priority")', function() {
+      //   // TODO: update the code to test the property priority
+      //   expect(instance).to.have.property('priority');
+      //   // expect(instance.priority).to.be(expectedValueLiteral);
+      // });
 
     });
   });

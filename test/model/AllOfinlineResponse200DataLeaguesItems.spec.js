@@ -39,11 +39,11 @@
       //   expect(instance).to.be.a(LolesportsApi.AllOfinlineResponse200DataLeaguesItems);
       // });
 
-      it('should have the property region (base name: "region")', function() {
-        // TODO: update the code to test the property region
-        expect(instance).to.have.property('region');
-        // expect(instance.region).to.be(expectedValueLiteral);
-      });
+      // it('should have the property region (base name: "region")', function() {
+      //   // TODO: update the code to test the property region
+      //   expect(instance).to.have.property('region');
+      //   // expect(instance.region).to.be(expectedValueLiteral);
+      // });
 
     });
   });
